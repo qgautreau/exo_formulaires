@@ -106,3 +106,58 @@ h1 {
     color: white;
     border-radius: 5px;
 }
+
+/* 3rd Form style */
+
+#form3 {
+    width: 600px;
+}
+
+fieldset {
+    background-color: #fff3f3;
+    border: 1px solid #ffcfd1;
+    border-radius: 10px;
+    padding: 2.5em;
+    margin-top: 1em;
+    width: 100%;
+}
+
+legend {
+    background-color: #fff3f3;
+    border: 1px solid #ffcfd1;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5em;
+    color: #ff93c8;
+}
+
+
+label {
+    display: inline-block;
+    color: #FF4EA4;
+    font-weight: bold;
+    width: 150px;
+}
+
+input,textarea,select {
+    background-color: #FFF3F3;
+    border: 1px solid #FFB7DA;
+    border-radius: 5px;
+    color: #FF4EA4;
+    width: 225px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+textarea {
+    vertical-align: top;
+    width: 300px;
+}
+
+#submit {
+    background-color: #FD0081;
+    border: 2px solid #D8137E;
+    color: #F9B3D6;
+    width: 95px;
+    margin-left: 160px;
+}
