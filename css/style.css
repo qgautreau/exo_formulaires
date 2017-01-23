@@ -1,0 +1,18 @@
+#form1 {
+    width: 370px;
+    box-sizing: border-box;
+
+}
+
+#form1 label {
+    display: block;
+}
+
+#form1 #first_name,#last_name {
+    display: inline;
+    width: 180px;
+}
+
+#form1 #email,#subject,#message {
+    width: 100%;
+}

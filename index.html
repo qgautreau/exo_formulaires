@@ -6,7 +6,7 @@
        <link rel="stylesheet" href="./css/style.css">
    </head>
    <body>
-       <form action="http://live.codincamp.fr/mail.php" method="post" id="form1">
+        <form action="http://live.codincamp.fr/mail.php" method="post" id="form1">
            <label for="first_name" class="required">Full Name</label>
            <input type="text" name="name" id="first_name" placeholder="First" required/>
            <input type="text" name="name" id="last_name" placeholder="Last" required/>
@@ -15,7 +15,7 @@
            <input type="email" name="email" id="email" required/>
 
            <label for="subject">Subject</label>
-           <select name="subject">
+           <select name="subject" id="subject">
                <option>Advertise</option>
            </select>
            <label for="message" class="required">Your Message</label>
@@ -23,7 +23,7 @@
            <input type="submit" name="submit" value="Submit" id="submit"/>
        </form>
 
-       <form action="http://live.codincamp.fr/mail.php" method="post" id="form2">
+     <!--  <form action="http://live.codincamp.fr/mail.php" method="post" id="form2">
             <h1>Provide your information</h1>
             <label for="name" class="required">Name</label>
             <input type="text" name="name" id="name" required>
@@ -46,6 +46,29 @@
 
             <input type="submit" name="submit" value="Submit">
         </form>
+        <form action="http://live.codincamp.fr/mail.php" method="post" id="form3">
+            <fieldset>
+                <legend>Personal</legend>
+                <label for="name" class="required">Name</label>
+                <input type="text" name="name" id="name" required/>
+                <label for="email" class="required">Email</label>
+                <input type="email" name="email" id="email" required/>
+                <label for="phone" class="required">Phone</label>
+                <input type="tel" name="phone" id="phone" required/>
+                <label for="subject">Subject</label>
+                <select name="subject">
+                    <option>Appointment</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <label for="message" class="required">Your Message</label>
+                <textarea cols="50" rows="15" name="message" id="message" required></textarea>
+                <input type="submit" name="submit" value="Submit" id="submit"/>
+        </fieldset>
+        </form> -->
+
+
    </body>
    <script src="./js/script.js"></script>
 </html>
