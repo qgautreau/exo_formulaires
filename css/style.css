@@ -1,21 +1,108 @@
 * {
     box-sizing: border-box;
-    
 }
+
+.required::after {
+    content: ' *';
+    color: red;
+}
+
+
+/* 1st Form style */
 #form1 {
     width: 370px;
-
+    font-family: sans-serif;
 }
 
 #form1 label {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     display: block;
+    color: #363636;
+    font-weight: bold;
 }
 
-#form1 #first_name,#last_name {
+#form1 #first_name,
+#form1 #last_name {
+    padding: 0.5em;
     display: inline;
     width: 180px;
+    border: 1px solid #D8D8D8;
 }
 
-#form1 #email,#subject,#message {
+#form1 #email,
+#form1 #subject,
+#form1 #message {
+    padding: 0.5em;
     width: 100%;
+    border: 1px solid #D8D8D8;
+}
+
+#form1 #submit {
+    padding: 0.75em;
+    margin-top: 1em;
+    color: white;
+    background-color: #3798AE;
+    border: none;
+}
+
+/* 2nd Form style */
+
+h1 {
+    width: 470px;
+    display: block;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: #363636;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+#form2 {
+    width: 400px;
+    font-family: sans-serif;
+    color: #363636;
+}
+#form2 .form-group{
+    margin-top: 1em;
+    width: 100%;
+}
+#form2 label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+#form2 input {
+    padding: 0.5em;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+}
+
+#form2 textarea {
+    display: inline;
+    vertical-align: top;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+}
+
+#form2 .tel {
+    width: 40px;
+}
+
+#form2 select {
+    padding: 0.5em;
+    width: 122px;
+    background-color: #DDDDDD;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+}
+
+#form2 #submit {
+    padding: 0.5em 0.75em;
+    margin-top: 1em;
+    margin-left: 125px;
+    background-color: #FF8500;
+    color: white;
+    border-radius: 5px;
 }
