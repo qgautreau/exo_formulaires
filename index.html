@@ -7,39 +7,45 @@
    </head>
    <body>
        <form action="http://live.codincamp.fr/mail.php" method="post" id="form1">
-               <label for="first_name" class="required">Full Name</label>
-               <input type="text" name="name" id="first_name" placeholder="First" required/>
-               <input type="text" name="name" id="last_name" placeholder="Last" required/>
+           <label for="first_name" class="required">Full Name</label>
+           <input type="text" name="name" id="first_name" placeholder="First" required/>
+           <input type="text" name="name" id="last_name" placeholder="Last" required/>
 
-               <label for="email" class="required">Email</label>
-               <input type="email" name="email" id="email" required/>
+           <label for="email" class="required">Email</label>
+           <input type="email" name="email" id="email" required/>
 
-               <label for="subject">Subject</label>
-               <select>
-                   <option>Advertise</option>
-               </select>
-               <label for="message" class="required">Your Message</label>
-               <textarea cols="50" rows="15" name="message" id="message" required></textarea>
+           <label for="subject">Subject</label>
+           <select name="subject">
+               <option>Advertise</option>
+           </select>
+           <label for="message" class="required">Your Message</label>
+           <textarea cols="50" rows="15" name="message" id="message" required></textarea>
            <input type="submit" name="submit" value="Submit" id="submit"/>
        </form>
 
-       <form action="http://live.codincamp.fr/mail.php" method="post" id="form1">
-               <label for="first_name" class="required">Full Name</label>
-               <input type="text" name="name" id="first_name" placeholder="First" required/>
-               <input type="text" name="name" id="last_name" placeholder="Last" required/>
+       <form action="http://live.codincamp.fr/mail.php" method="post" id="form2">
+            <h1>Provide your information</h1>
+            <label for="name" class="required">Name</label>
+            <input type="text" name="name" id="name" required>
 
-               <label for="email" class="required">Email</label>
-               <input type="email" name="email" id="email" required/>
+            <label for="email" class="required">Email</label>
+            <input type="email" name="email" id="email">
 
-               <label for="subject">Subject</label>
-               <select>
-                   <option>Advertise</option>
-               </select>
-               <label for="message" class="required">Your Message</label>
-               <textarea cols="50" rows="15" name="message" id="message" required></textarea>
-           <input type="submit" name="submit" value="Submit" id="submit"/>
-       </form>
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="tel-part1"><span class="separator">-</span>
+            <input type="tel" name="tel-part2"><span class="separator">-</span>
+            <input type="tel" name="tel-part3">
 
+            <label for="regarding">Regarding</label>
+            <select name="regarding">
+                <option>General</option>
+            </select>
+
+            <label for="message" class="required">Message</label>
+            <textarea name="message" rows="8" cols="80" required></textarea>
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
    </body>
    <script src="./js/script.js"></script>
 </html>
