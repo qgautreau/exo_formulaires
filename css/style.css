@@ -211,7 +211,7 @@ span {
     color: white;
 }*/
 
-/*#last-form {
+#last-form {
     width: 40%;
     margin-left: 0.3em;
     color: grey;
@@ -239,6 +239,7 @@ h1 {
 }
 
 span {
+    margin-left: -2em;
     padding: 0.4em 0.7em;
     background-color: #2A88AD;
     color: white;
@@ -290,7 +291,7 @@ input[type="submit"] {
     background-color: #2A88AD;
     border: 1px solid #257C9E;
     border-radius: 0.3em;
-}*/
+}
 
 /*#simpleform {
     width: 50%;
@@ -323,7 +324,7 @@ input[type="submit"] {
     border-radius: 0.3em;
 }*/
 
-#contactus {
+/*#contactus {
     width: 40%;
 }
 
@@ -361,4 +362,4 @@ textarea {
 input[type="submit"] {
     background-color: #43d1af;
     color: white;
-}
+}*/
