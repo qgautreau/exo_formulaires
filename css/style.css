@@ -162,9 +162,11 @@ textarea {
     margin-left: 160px;
 }*/
 
-
+/*
 #formfill {
-    width: 550px;
+    margin-left: 3em;
+    width: 40%;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -184,8 +186,12 @@ legend {
 }
 
 input{
-    border: 0;
     display: block;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    overflow: hidden;
+    border: 0;
 }
 
 span {
@@ -196,9 +202,92 @@ span {
 }
 
 #send {
+    margin: auto;
+    padding: 1em 1.5em;
     border-radius: 5px;
-    padding: 18px 30px;
+    width: 25%;
     background-color: #4636ff;
     border-bottom: 2px solid #6278ff;
     color: white;
+}*/
+
+#last-form {
+    width: 40%;
+    margin-left: 0.3em;
+    color: grey;
+}
+
+#last-form > div {
+    padding: 1.5em;
+    margin-left: 1em;
+    background-color: #2A88AD;
+    border-radius: 1em 1em 0 0;
+    border: 1px solid #257C9E;
+    color: white;
+}
+
+section {
+    padding: 1em;
+    margin-left: 1em;
+    box-shadow: 0 0 3px lightgrey;
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+#last-form > div > p,
+h1 {
+    margin: 0;
+}
+
+span {
+    padding: 0.4em 0.7em;
+    background-color: #2A88AD;
+    color: white;
+    border-radius: 180px;
+}
+
+h2 {
+    display: inline;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+    color: #2A88AD;
+}
+
+fieldset {
+    margin: 0.5em 0;
+    padding: 1em;
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 0.3em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:not([type="checkbox"]):not([type="submit"]),
+textarea {
+    padding: 0.5em;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 0.3em;
+    width: 100%;
+}
+
+label[for="policy"] {
+    display: inline;
+    font-size: 0.7em;
+}
+
+label[for="policy"],
+input[type="checkbox"] {
+    float: right;
+}
+
+input[type="submit"] {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #2A88AD;
+    border: 1px solid #257C9E;
+    border-radius: 0.3em;
 }

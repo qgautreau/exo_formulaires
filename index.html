@@ -72,7 +72,7 @@
         <input type="submit" name="submit" value="Submit" id="submit"/>
     </fieldset>
 </form> -->
-<form action="http://live.codincamp.fr/mail.php" method="post" id="formfill">
+<!-- <form action="http://live.codincamp.fr/mail.php" method="post" id="formfill">
     <h1>Fill Form</h1>
     <fieldset>
         <legend>Name</legend>
@@ -92,10 +92,43 @@
     <fieldset>
         <legend>About You</legend>
             <input type="text" name="aboutyou" id="aboutyou" required/>
-            <span>Say something about yourself</span>            
+            <span>Say something about yourself</span>
     </fieldset>
     <input type="submit" name="submit" value="Send This" id="send"/>
+</form> -->
+<form action="#" method="post" id="last-form">
+    <div>
+        <h1>Sign Up Now!</h1>
+        <p>Sign up and tell us what you think of the site!</p>
+    </div>
+    <section>
+        <span>1</span><h2>First Name & Address</h2>
+        <fieldset>
+            <label for="fullname">Your Full Name</label>
+            <input type="text" name="fullname" >
+            <label for="address">Address</label>
+            <textarea name="address"></textarea>
+        </fieldset>
+        <span>2</span><h2>Email & Phone</h2>
+        <fieldset>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" >
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone">
+        </fieldset>
+        <span>3</span><h2>Passwords</h2>
+        <fieldset>
+            <label for="fullname">Password</label>
+            <input type="password" name="password" >
+            <label for="address">Confirm Password</label>
+            <input type="password" name="confirm">
+        </fieldset>
+        <input type="submit" name="valider" value="Valider">
+        <label for="policy">You agree to our Terms and Policy.</label>
+        <input type="checkbox" name="policy">
+    </section>
 </form>
+
 </body>
 <script src="./js/script.js"></script>
 </html>
