@@ -211,7 +211,7 @@ span {
     color: white;
 }*/
 
-#last-form {
+/*#last-form {
     width: 40%;
     margin-left: 0.3em;
     color: grey;
@@ -290,4 +290,75 @@ input[type="submit"] {
     background-color: #2A88AD;
     border: 1px solid #257C9E;
     border-radius: 0.3em;
+}*/
+
+/*#simpleform {
+    width: 50%;
+    padding: 2em;
+    background-color: #495a70;
+    border: 6px solid #52657e;
+
+}
+
+label {
+    width: 30%;
+    margin-bottom: 1em;
+    display: inline-block;
+    color: white;
+}
+
+input:not([type="submit"]) {
+    width: 65%;
+    border: 0;
+    border-bottom: 1px dashed #7794b9;
+    background-color: inherit;
+}
+
+input[type="submit"] {
+    padding: 0.7em;
+    margin-left: 30%;
+    background-color: #566b86;
+    color: #8598b2;
+    border: 0;
+    border-radius: 0.3em;
+}*/
+
+#contactus {
+    width: 40%;
+}
+
+div {
+    background-color: #43d1af;
+}
+
+div h1 {
+    padding: 0.75em;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding: 1em;
+    background-color: #f7f7f7;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0;
+}
+
+input[type="submit"] {
+    background-color: #43d1af;
+    color: white;
 }
