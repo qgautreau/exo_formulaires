@@ -51,7 +51,7 @@
     </div>
     <input type="submit" name="submit" value="Submit" id="submit">
 </form> -->
-<form action="http://live.codincamp.fr/mail.php" method="post" id="form3">
+<!-- <form action="http://live.codincamp.fr/mail.php" method="post" id="form3">
     <fieldset>
         <legend>Personal</legend>
         <label for="name" class="required">Name</label>
@@ -71,9 +71,31 @@
         <textarea cols="50" rows="15" name="message" id="message" required></textarea>
         <input type="submit" name="submit" value="Submit" id="submit"/>
     </fieldset>
+</form> -->
+<form action="http://live.codincamp.fr/mail.php" method="post" id="formfill">
+    <h1>Fill Form</h1>
+    <fieldset>
+        <legend>Name</legend>
+            <input type="text" name="name" id="name" required/>
+            <span>Enter your full name here</span>
+    </fieldset>
+    <fieldset>
+        <legend>Email</legend>
+            <input type="email" name="email" id="email" required/>
+            <span>Enter a valid email adress</span>
+    </fieldset>
+    <fieldset>
+        <legend>Website</legend>
+            <input type="url" name="website" id="website" required/>
+            <span>Your website adress (eg: http://www.google.com)</span>
+    </fieldset>
+    <fieldset>
+        <legend>About You</legend>
+            <input type="text" name="aboutyou" id="aboutyou" required/>
+            <span>Say something about yourself</span>            
+    </fieldset>
+    <input type="submit" name="submit" value="Send This" id="send"/>
 </form>
-
-
 </body>
 <script src="./js/script.js"></script>
 </html>
